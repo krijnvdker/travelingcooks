@@ -8,12 +8,12 @@ require 'phpmailer/src/SMTP.php';
 $toemails = array();
 
 $toemails[] = array(
-				'email' => 'username@website.com', // Your Email Address
+				'email' => 'krijnvdker@gmail.com', // Your Email Address
 				'name' => 'Your Name' // Your Name
 			);
 
 // Form Processing Messages
-$message_success = 'We have <strong>successfully</strong> received your Message and will get Back to you as soon as possible.';
+$message_success = 'We hebben je bericht <strong>succesvol</strong> ontvangen. Je krijgt zo snel mogelijk bericht terug.';
 
 // Add this only if you use reCaptcha with your Contact Forms
 $recaptcha_secret = ''; // Your reCaptcha Secret
@@ -30,10 +30,9 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 		$email = isset( $_POST['template-contactform-email'] ) ? $_POST['template-contactform-email'] : '';
 		$phone = isset( $_POST['template-contactform-phone'] ) ? $_POST['template-contactform-phone'] : '';
 		$service = isset( $_POST['template-contactform-service'] ) ? $_POST['template-contactform-service'] : '';
-		$subject = isset( $_POST['template-contactform-subject'] ) ? $_POST['template-contactform-subject'] : '';
 		$message = isset( $_POST['template-contactform-message'] ) ? $_POST['template-contactform-message'] : '';
 
-		$subject = $subject ? $subject : 'New Message From Contact Form';
+		$subject = $subject ? $subject : 'Nieuw bericht van het contact formulier';
 
 		$botcheck = $_POST['template-contactform-botcheck'];
 
@@ -49,12 +48,11 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 			$name = isset($name) ? "Name: $name<br><br>" : '';
 			$email = isset($email) ? "Email: $email<br><br>" : '';
 			$phone = isset($phone) ? "Phone: $phone<br><br>" : '';
-			$service = isset($service) ? "Service: $service<br><br>" : '';
 			$message = isset($message) ? "Message: $message<br><br>" : '';
 
-			$referrer = $_SERVER['HTTP_REFERER'] ? '<br><br><br>This Form was submitted from: ' . $_SERVER['HTTP_REFERER'] : '';
+			$referrer = $_SERVER['HTTP_REFERER'] ? '<br><br><br>Het formulier is verstuurd vanaf: ' . $_SERVER['HTTP_REFERER'] : '';
 
-			$body = "$name $email $phone $service $message $referrer";
+			$body = "$name $email $phone $message $referrer";
 
 			// Runs only when File Field is present in the Contact Form
 			if ( isset( $_FILES['template-contactform-file'] ) && $_FILES['template-contactform-file']['error'] == UPLOAD_ERR_OK ) {

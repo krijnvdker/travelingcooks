@@ -67,7 +67,7 @@ $autoplay = "on";
 		}
 
 		.demos-filter li a:hover,
-		.demos-filter li.activeFilter a { color: #1ABC9C; }
+		.demos-filter li.activeFilter a { color: #772900; }
 
 		@media (max-width: 991px) {
 			.demos-filter { text-align: center; }
@@ -947,11 +947,11 @@ $autoplay = "on";
 							<div class="row">
 
 								<div class="col-lg-6 clearfix bottommargin-sm">
-									<a href="#" class="social-icon si-dark si-colored si-facebook nobottommargin" style="margin-right: 10px;">
+									<a href="https://www.facebook.com/Travellingcooks-625875177775092/" class="social-icon si-dark si-colored si-facebook nobottommargin" style="margin-right: 10px;">
 										<i class="icon-facebook"></i>
 										<i class="icon-facebook"></i>
 									</a>
-									<a href="#"><small style="display: block; margin-top: 3px;"><strong>Like us</strong><br>on Facebook</small></a>
+									<a href="https://www.facebook.com/Travellingcooks-625875177775092/"><small style="display: block; margin-top: 3px;"><strong>Like us</strong><br>on Facebook</small></a>
 								</div>
 								<div class="col-lg-6 clearfix">
 									<a href="#" class="social-icon si-dark si-colored si-rss nobottommargin" style="margin-right: 10px;">
@@ -984,7 +984,7 @@ $autoplay = "on";
 
 					<div class="col_half col_last tright">
 						<div class="fright clearfix">
-							<a href="#" class="social-icon si-small si-borderless si-facebook">
+							<a href="https://www.facebook.com/Travellingcooks-625875177775092/" class="social-icon si-small si-borderless si-facebook">
 								<i class="icon-facebook"></i>
 								<i class="icon-facebook"></i>
 							</a>
@@ -994,7 +994,7 @@ $autoplay = "on";
 								<i class="icon-twitter"></i>
 							</a>
 
-							<a href="#" class="social-icon si-small si-borderless si-gplus">
+							<a href="https://www.facebook.com/Travellingcooks-625875177775092/" class="social-icon si-small si-borderless si-gplus">
 								<i class="icon-gplus"></i>
 								<i class="icon-gplus"></i>
 							</a>
