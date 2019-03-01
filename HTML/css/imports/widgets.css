@@ -64,8 +64,8 @@ body:not(.device-touch) .tagcloud a {
 }
 
 .tagcloud a:hover {
-	border-color: #772900 !important;
-	color: #772900 !important;
+	border-color: #037840 !important;
+	color: #037840 !important;
 }
 
 
@@ -353,7 +353,7 @@ blockquote.float-left {
 
 .widget-filter-links li.active-filter span {
 	color: #FFF;
-	background-color: #772900;
+	background-color: #037840;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
 }
 
@@ -407,7 +407,7 @@ blockquote.float-left {
 
 .nav-tree li:hover > a,
 .nav-tree li.current > a,
-.nav-tree li.active > a { color: #772900 !important; }
+.nav-tree li.active > a { color: #037840 !important; }
 
 .nav-tree ul ul { display: none; }
 

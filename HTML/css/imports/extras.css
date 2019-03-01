@@ -17,7 +17,7 @@
 
 .table .danger { color: #a94442; }
 
-.btn-link { color: #772900; }
+.btn-link { color: #037840; }
 
 .btn-link:hover,
 .btn-link:focus { color: #222; }
@@ -55,8 +55,8 @@
 .page-link:hover,
 .page-link:focus {
 	color: #FFF !important;
-	background-color: #772900 !important;
-	border-color: #772900 !important;
+	background-color: #037840 !important;
+	border-color: #037840 !important;
 }
 
 label.radio,
